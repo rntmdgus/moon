@@ -31,18 +31,18 @@ function draw() {
 	//타원라인
 	noFill();
 	stroke(255);
-	ellipse(500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*100-100,
-		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*50-100,
-		,100,50)
+	ellipse(500 + Math.cos(timing1*2*PI)*300,
+        500 + Math.sin(timing1*2*PI)*300,
+        50,
+        400);
 
 	//달라인
 	noFill();
 	stroke(255);
-	ellipse(500 + Math.cos(timing1*2*PI)*300,           // x좌표
-        500 + Math.sin(timing1*2*PI)*300,		 // y좌표
-        200,                                	  // width
-        200);                              	   // height
-                             	   // height 
+	ellipse(500 + Math.cos(timing1*2*PI)*300,
+        500 + Math.sin(timing1*2*PI)*300,
+        200,
+        200);
 
 	//태양
  	image(solar,250,250,500,500);
