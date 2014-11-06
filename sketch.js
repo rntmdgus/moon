@@ -41,7 +41,7 @@ function draw() {
 	stroke(255);
 	ellipse(500 + Math.cos(timing1*2*PI)*300,
         500 + Math.sin(timing1*2*PI)*300,
-        250,
+        300,
         150);
 
 	//달라인
@@ -57,8 +57,8 @@ function draw() {
 
 
  	//달1
-	image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*80-100,
-		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*50-100,200,200);
+	image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*150-100,
+		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*70-100,200,200);
 
 	image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing3*4*PI)*100-100,
 		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing3*4*PI)*100-100,200,200);
