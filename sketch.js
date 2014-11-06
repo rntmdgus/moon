@@ -28,7 +28,7 @@ function draw() {
 	//지구라인
 	noFill();
 	stroke(255);
-	ellipse(500,500,500,500)
+	ellipse(500,500,600,600)
 
 	//달라인
 	noFill();
