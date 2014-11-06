@@ -1,8 +1,4 @@
-var solar;
-var bg;
-var earth;
-var moon;
-
+var solar, bg, earth, moon;
 function setup() {
     createCanvas(1000, 1000);
 	solar = loadImage("sun.png");
