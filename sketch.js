@@ -31,7 +31,9 @@ function draw() {
 	//타원라인
 	noFill();
 	stroke(255);
-	ellipse(500,500,800,300)
+	ellipse(500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*100-100,
+		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*50-100,
+		,100,50)
 
 	//달라인
 	noFill();
@@ -45,8 +47,6 @@ function draw() {
 	//태양
  	image(solar,250,250,500,500);
 
- 	//지구
-	image(earth,500 + Math.cos(timing1*2*PI)*300-150,500 + Math.sin(timing1*2*PI)*300-150,300,300);
 
  	//달1
 	image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*100-100,
@@ -56,5 +56,8 @@ function draw() {
 		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing3*4*PI)*100-100,200,200);
 
 	image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing4*4*PI)*100-100,
-		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing4*4*PI)*200-100,200,200);
+		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing4*4*PI)*150-100,200,200);
+
+ 	//지구
+	image(earth,500 + Math.cos(timing1*2*PI)*300-150,500 + Math.sin(timing1*2*PI)*300-150,300,300);
 }
