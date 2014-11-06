@@ -1,14 +1,16 @@
 var solar;
+var bg;
 
 function setup() {
     createCanvas(1000, 1000);
-	solar = loadImage("sun.jpg");
+	solar = loadImage("sun.png");
+	bg = loadImage("bg.png");
 }
 
 
 function draw() {
 
-	background(255);
+	background(bg);
 
 	var duration0 = 7000;
 	var timing0 = (new Date()%duration0)/duration0;
@@ -34,7 +36,7 @@ function draw() {
                              	   // height 
 
 	//태양
- 	image(solar,500,500,500,500);
+ 	image(solar,300,300,800,800);
 
  	//타원궤도
 	fill(0,41,191);
