@@ -33,8 +33,8 @@ function draw() {
 	//달라인
 	noFill();
 	stroke(255);
-	ellipse(500 + Math.cos(timing1*2*PI)*250,           // x좌표
-        500 + Math.sin(timing1*2*PI)*250,		 // y좌표
+	ellipse(500 + Math.cos(timing1*2*PI)*300,           // x좌표
+        500 + Math.sin(timing1*2*PI)*300,		 // y좌표
         200,                                	  // width
         200);                              	   // height
                              	   // height 
@@ -45,8 +45,8 @@ function draw() {
  	//타원궤도
 	fill(0,41,191);
 	stroke(0,41,191);
-	ellipse(500 + Math.cos(timing0*2*PI)*200,           // x좌표
-        450 + Math.sin(timing0*2*PI)*200,		 // y좌표
+	ellipse(500 + Math.cos(timing0*2*PI)*300,           // x좌표
+        450 + Math.sin(timing0*2*PI)*300,		 // y좌표
         50,                                	  // width
         50);   
 
