@@ -28,13 +28,21 @@ function draw() {
 	stroke(255);
 	ellipse(500,500,600,600)
 
-	//타원라인
+	//달타원라인1
 	noFill();
 	stroke(255);
 	ellipse(500 + Math.cos(timing1*2*PI)*300,
         500 + Math.sin(timing1*2*PI)*300,
-        100,
+        80,
         350);
+
+	//달타원라인2
+	noFill();
+	stroke(255);
+	ellipse(500 + Math.cos(timing1*2*PI)*300,
+        500 + Math.sin(timing1*2*PI)*300,
+        200,
+        150);
 
 	//달라인
 	noFill();
