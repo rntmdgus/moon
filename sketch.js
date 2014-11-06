@@ -28,6 +28,11 @@ function draw() {
 	stroke(255);
 	ellipse(500,500,600,600)
 
+	//타원라인
+	noFill();
+	stroke(255);
+	ellipse(500,500,700,400)
+
 	//달라인
 	noFill();
 	stroke(255);
