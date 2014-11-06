@@ -34,10 +34,7 @@ function draw() {
                              	   // height 
 
 	//태양
-	
-	// fill(255,0,0);
-	// stroke(255,0,0);
- 	image(solar,500-solar.width/2,500-solar.height/2,100,100);
+ 	image(solar,500-solar.width/2,500-solar.height/2,300,300);
 
  	//타원궤도
 	fill(0,41,191);
