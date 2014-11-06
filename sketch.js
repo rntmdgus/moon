@@ -31,7 +31,7 @@ function draw() {
 	//타원라인
 	noFill();
 	stroke(255);
-	ellipse(500,500,700,400)
+	ellipse(500,500,800,300)
 
 	//달라인
 	noFill();
@@ -44,6 +44,10 @@ function draw() {
 
 	//태양
  	image(solar,250,250,500,500);
+
+ 	//행성
+	image(earth,800 + Math.cos(timing1*2*PI)*300-150,
+		300 + Math.sin(timing1*2*PI)*300-150,300,300);
 
  	//지구
 	image(earth,500 + Math.cos(timing1*2*PI)*300-150,500 + Math.sin(timing1*2*PI)*300-150,300,300);
