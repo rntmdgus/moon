@@ -1,10 +1,12 @@
 var solar;
 var bg;
+var earth;
 
 function setup() {
     createCanvas(1000, 1000);
 	solar = loadImage("sun.png");
 	bg = loadImage("bg.png");
+	earth = loadImage("earth.png");
 }
 
 
@@ -48,8 +50,7 @@ function draw() {
 
 
  	//지구
-	fill(14,193,0);
-	stroke(14,193,0);
+	image(earth);
 	ellipse(500 + Math.cos(timing1*2*PI)*250,           // x좌표
         500 + Math.sin(timing1*2*PI)*250,		 // y좌표
         50,                                	  // width
