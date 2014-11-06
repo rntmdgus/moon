@@ -44,12 +44,12 @@ function draw() {
 	image(earth,500 + Math.cos(timing1*2*PI)*300-150,500 + Math.sin(timing1*2*PI)*300-150,300,300);
 
  	//달1
-	image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*100-100,
-		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*100-100,200,200);
+	image(moon,500-30 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*100-100,
+		500-30 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*100-100,200,200);
 
-	image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing3*4*PI)*100-100,
-		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing3*4*PI)*100-100,200,200);
+	image(moon,500-100 + Math.cos(timing1*2*PI)*300 + Math.cos(timing3*4*PI)*100-100,
+		500-100 + Math.sin(timing1*2*PI)*300 + Math.sin(timing3*4*PI)*100-100,200,200);
 
-	image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing4*4*PI)*100-100,
-		500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing4*4*PI)*100-100,200,200);
+	image(moon,500-200 + Math.cos(timing1*2*PI)*300 + Math.cos(timing4*4*PI)*100-100,
+		500-200 + Math.sin(timing1*2*PI)*300 + Math.sin(timing4*4*PI)*100-100,200,200);
 }
