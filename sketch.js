@@ -44,15 +44,6 @@ function draw() {
 	//태양
  	image(solar,250,250,500,500);
 
- 	//타원궤도
-	fill(0,41,191);
-	stroke(0,41,191);
-	ellipse(500 + Math.cos(timing0*2*PI)*300,           // x좌표
-        450 + Math.sin(timing0*2*PI)*300,		 // y좌표
-        50,                                	  // width
-        50);   
-
-
  	//지구
 	image(earth,500 + Math.cos(timing1*2*PI)*300-150,500 + Math.sin(timing1*2*PI)*300-150,300,300);
 
