@@ -66,7 +66,7 @@ function draw() {
 	fill(196,158,0);
 	stroke(196,158,0);
 	ellipse(500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing3*4*PI)*100,           // x좌표
-        500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing3*4*PI)*100,		 // y좌표
+        300 + Math.sin(timing1*2*PI)*300 + Math.sin(timing3*4*PI)*100,		 // y좌표
         30,                                	  // width
         30); 
 
@@ -74,7 +74,7 @@ function draw() {
 	fill(196,158,0);
 	stroke(196,158,0);
 	ellipse(500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing4*4*PI)*100,           // x좌표
-        500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing4*4*PI)*100,		 // y좌표
+        400 + Math.sin(timing1*2*PI)*300 + Math.sin(timing4*4*PI)*100,		 // y좌표
         40,                                	  // width
         40); 
 }
