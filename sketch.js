@@ -38,7 +38,7 @@ function draw() {
                              	   // height 
 
 	//태양
- 	image(solar,300,300,500,500);
+ 	image(solar,250,250,500,500);
 
  	//타원궤도
 	fill(0,41,191);
@@ -50,7 +50,7 @@ function draw() {
 
 
  	//지구
-	image(earth);
+	image(earth,500 + Math.cos(timing1*2*PI)*250-150,500 + Math.sin(timing1*2*PI)*250-150,300,300);
 	ellipse(500 + Math.cos(timing1*2*PI)*250,           // x좌표
         500 + Math.sin(timing1*2*PI)*250,		 // y좌표
         50,                                	  // width
